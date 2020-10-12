@@ -10,9 +10,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>A general-simple library for number manipulation functions by Drysdale Chivhanga</Description>
-    <PackageReleaseNotes>The intitial stand-alone with an accessible github account</PackageReleaseNotes>
+    <PackageReleaseNotes>The intitial stand-alone with an accessible github account
+## Get-Quotient-And-Remainder Method is now under NumberManip##</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>SterpLogo-Ewb.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/drysdale-chivhanga/number-manipulation</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
