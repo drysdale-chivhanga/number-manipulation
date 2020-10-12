@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Drysdale.Number.Manipulation</RootNamespace>
+    <AssemblyName>Drysdale.Number.Manipulation</AssemblyName>
+    <Version>1.0.6</Version>
+    <Company>Sterp</Company>
+    <Authors>Drysdale Chivhanga</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>A general-simple library for number manipulation functions by Drysdale Chivhanga</Description>
+    <PackageReleaseNotes>The intitial stand-alone with an accessible github account</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>SterpLogo-Ewb.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\SterpLogo-Ewb.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
