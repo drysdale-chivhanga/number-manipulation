@@ -4,14 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Drysdale.Number.Manipulation</RootNamespace>
     <AssemblyName>Drysdale.Number.Manipulation</AssemblyName>
-    <Version>1.0.6</Version>
+    <Version>1.0.7</Version>
     <Company>Sterp</Company>
     <Authors>Drysdale Chivhanga</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>A general-simple library for number manipulation functions by Drysdale Chivhanga</Description>
-    <PackageReleaseNotes>The intitial stand-alone with an accessible github account
-## Get-Quotient-And-Remainder Method is now under NumberManip##</PackageReleaseNotes>
+    <PackageReleaseNotes>Added Commentary to functions / Methods</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>SterpLogo-Ewb.png</PackageIcon>
     <PackageProjectUrl>https://github.com/drysdale-chivhanga/number-manipulation</PackageProjectUrl>
