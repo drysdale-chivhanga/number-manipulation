@@ -16,7 +16,9 @@
     <PackageIcon>SterpLogo-Ewb.png</PackageIcon>
     <PackageProjectUrl>https://github.com/drysdale-chivhanga/number-manipulation</PackageProjectUrl>
   </PropertyGroup>
-
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\..\SterpLogo-Ewb.png">
       <Pack>True</Pack>
