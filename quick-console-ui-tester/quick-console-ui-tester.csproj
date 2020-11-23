@@ -6,4 +6,8 @@
     <RootNamespace>quick_console_ui_tester</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Drysdale.NumberManipulation" Version="1.0.8" />
+  </ItemGroup>
+
 </Project>
