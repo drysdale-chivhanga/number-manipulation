@@ -1,19 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Drysdale.Number.Manipulation</RootNamespace>
-    <AssemblyName>Drysdale.Number.Manipulation</AssemblyName>
-    <Version>1.0.7</Version>
+     <TargetFramework>netstandard2.0</TargetFramework>    
+    <RootNamespace>Drysdale.NumberManipulation</RootNamespace>
+    <AssemblyName>Drysdale.NumberManipulation</AssemblyName>
+    <Version>1.0.8</Version>
     <Company>Sterp</Company>
     <Authors>Drysdale Chivhanga</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>A general-simple library for number manipulation functions by Drysdale Chivhanga</Description>
-    <PackageReleaseNotes>Added Commentary to functions / Methods</PackageReleaseNotes>
+    <PackageReleaseNotes>##Changed to Standard-Class-Library for greater flexibility
+</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>SterpLogo-Ewb.png</PackageIcon>
     <PackageProjectUrl>https://github.com/drysdale-chivhanga/number-manipulation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/drysdale-chivhanga/number-manipulation</RepositoryUrl>
+    <Product>Drysdale.NumberManipulation</Product>
+    <PackageId>Drysdale.NumberManipulation</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
